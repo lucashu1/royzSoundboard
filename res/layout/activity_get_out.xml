@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".GetOutActivity" 
+    android:orientation="vertical"
+    android:weightSum="1.0">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".GetOutActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_out"
+            android:onClick="getOut" 
+            android:layout_weight=".5"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_out2"
+            android:onClick="getOut2"
+            android:layout_weight=".5" />
+    
+        </LinearLayout>
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".GetOutActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_outta_here"
+            android:onClick="getOuttaHere"
+            android:layout_weight=".5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/get_outta_here2"
+            android:onClick="getOuttaHere2"
+            android:layout_weight=".5" />
+    
+        </LinearLayout>
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".GetOutActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="@string/get_away"
+            android:onClick="getAway"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/lock_my_room"
+            android:onClick="lockMyRoom"
+            android:layout_weight="0" />
+    
+        </LinearLayout>
+        
+    
+</LinearLayout>

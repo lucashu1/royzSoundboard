@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DepresskiActivity" 
+    android:orientation="vertical"
+    android:weightSum="1.0">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DepresskiActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/can_you_stop" 
+            android:onClick="canYouStop"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dont_like_filming" 
+            android:onClick="dontLikeFilming"/>
+    
+        </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DepresskiActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i_am_tool"
+            android:onClick="iAmTool" 
+            android:layout_weight=".5"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/long_sigh" 
+            android:onClick="longSigh"
+            android:layout_weight=".5"/>
+        
+        </LinearLayout>
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DepresskiActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/nobody_knows"
+            android:onClick="nobodyKnows" 
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/im_not_good"
+            android:onClick="imNotGood" />
+        
+        </LinearLayout>
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DepresskiActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/six_hours"
+            android:onClick="sixHours" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/wrong_decision"
+            android:onClick="wrongDecision" 
+            android:layout_weight="1"/>
+        
+        </LinearLayout>
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DepresskiActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/whatever"
+            android:onClick="whatever" 
+            android:layout_weight=".7"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/when_im_bsed"
+            android:onClick="whenImBsed" 
+            android:layout_weight=".3"/>
+        
+        </LinearLayout>
+    
+</LinearLayout>

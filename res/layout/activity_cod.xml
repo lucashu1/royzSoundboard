@@ -1,0 +1,237 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CodActivity" 
+    android:orientation="vertical"
+    android:weightSum="1.0">
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CodActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+    
+        <Button
+        android:id="@+id/almost_got_triple_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/almost_got_triple" 
+        android:onClick="almostGotTriple"
+        android:layout_weight=".9"/>
+
+        <Button
+            android:id="@+id/dropshot_accuracy_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/dropshot_accuracy" 
+            android:onClick="dropshotAccuracy"
+            android:layout_weight=".1"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CodActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/dropshot_gun" 
+            android:onClick="dropshotGun"
+            android:layout_weight=".6"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/got_reflex_sight" 
+            android:onClick="gotReflexSight"
+            android:layout_weight=".4"/>
+        
+        </LinearLayout>
+    
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CodActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lag" 
+            android:onClick="lag"
+            android:layout_weight="1.0"
+            style="?android:attr/buttonStyleSmall"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/made_me_die"
+            android:onClick="madeMeDie" 
+            style="?android:attr/buttonStyleSmall"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_long_barrel" 
+            android:onClick="noLongBarrel"
+            style="?android:attr/buttonStyleSmall"/>
+        
+        </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CodActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nobody_plays_cod" 
+            android:onClick="nobodyPlaysCod"
+            android:layout_weight="0.2"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oh_new_host" 
+            android:onClick="ohNewHost"
+            android:layout_weight="0.8"/>
+        
+        </LinearLayout>
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CodActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/onevone_cod" 
+            android:onClick="oneVOneCod"
+            android:layout_weight=".7"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prone_to_dodge" 
+            android:onClick="proneToDodge"
+            android:layout_weight=".3"/>
+        
+        </LinearLayout>
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CodActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shot_them_down"
+            android:onClick="shotThemDown" 
+            android:layout_weight=".4"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stealth_chopper"
+            android:onClick="stealthChopper" 
+            android:layout_weight=".6"/>
+        
+        </LinearLayout>
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CodActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/surprised_i_can_play" 
+            android:onClick="surprisedICanPlay"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_weight=".75"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="shootStuffDown"
+            android:text="@string/shoot_stuff_down" 
+            android:layout_weight=".25"/>
+        
+        </LinearLayout>
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CodActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uh_host_please" 
+            android:onClick="uhHostPlease"
+            android:layout_weight=".5"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/why_lvl_21" 
+            android:onClick="whyLvl21"
+            android:layout_weight=".5"/>
+        
+        </LinearLayout>
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".CodActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/wod" 
+            android:onClick="wingsOfDeath"
+            android:layout_weight="1"/>
+        
+        </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

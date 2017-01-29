@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ExclamationsiActivity" 
+    android:orientation="vertical"
+    android:weightSum="1.0">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ExclamationsActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ay" 
+            android:onClick="ay"
+            android:layout_weight=".6"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/i_cant_see" 
+            android:onClick="iCantSee"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oh_god"
+            android:onClick="ohGod" 
+            android:layout_weight=".4"/>
+    
+        </LinearLayout>
+        
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ExclamationsActivity" 
+    android:orientation="horizontal" 
+    android:weightSum="1.0">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oh_wow" 
+            android:onClick="ohWow"
+            android:layout_weight=".8"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thats_cool" 
+            android:onClick="thatsCool"
+            android:layout_weight=".1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/you_did_it" 
+            android:onClick="youDidIt"
+            android:layout_weight=".1"/>
+    
+        </LinearLayout>
+        
+    
+</LinearLayout>

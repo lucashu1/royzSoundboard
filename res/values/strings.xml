@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RoyZ Soundboard</string>
+    <string name="splash_text">RoyZ Soundboard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_category">Categories</string>
+    <string name="cod_category_name">CoD</string>
+    <string name="depresski_category_name">Depresski</string>
+    <string name="dubstep_category_name">Dubstep</string>
+    <string name="exclamations_category_name">Exclamations</string>
+    <string name="get_out_category_name">Get Out</string>
+    <string name="i_dont_care_category_name">I Don\'t Care</string>
+    <string name="laugh_category_name">Laugh</string>
+    <string name="other_category_name">Other</string>
+    <string name="questions_category_name">Questions</string>
+    <string name="threats_insults_category_name">Threats/Insults</string>
+    <string name="yes_no_category_name">Yes/No</string>
+    <string name="see_all_category_name">See All</string>
+    <string name="title_activity_cod">Call of Duty Sounds</string>
+    <string name="title_activity_depresski">Depresski Sounds</string>
+    <string name="title_activity_dubstep">Dubstep Sounds</string>
+    <string name="title_activity_exclamations">Exclamations</string>
+    <string name="title_activity_get_out">\"Get Out\" Sounds</string>
+    <string name="title_activity_idont_care">\"I Don\'t Care\" Sounds</string>
+    <string name="title_activity_laugh">Laughing Sounds</string>
+    <string name="title_activity_questions">Questions</string>
+    <string name="title_activity_threats_insults">Threats/Insults/Etc.</string>
+    <string name="title_activity_yes_no">\"Yes\"/\"No\" Sounds</string>
+    <string name="title_activity_other">Other Sounds</string>
+    <string name="title_activity_see_all">All Sounds</string>
+    
+    <string name="almost_got_triple">Almost Got Triple</string>
+    <string name="dropshot_accuracy">Dropshot Accuracy</string>
+    <string name="dropshot_gun">Dropshot Gun</string>
+    <string name="got_reflex_sight">Got Reflex Sight</string>
+  	<string name="lag">Lag</string>
+    <string name="made_me_die">Made Me Die</string>
+    <string name="no_long_barrel">No Long Barrel</string>
+    <string name="nobody_plays_cod">Nobody Plays CoD</string>
+    <string name="oh_new_host">Oh, New Host</string>
+    <string name="onevone_cod">1v1 CoD</string>
+    <string name="prone_to_dodge">Prone to Dodge</string>
+    <string name="shoot_stuff_down">They Shoot Stuff Down</string>
+    <string name="shot_them_down">Shot Them Down</string>
+    <string name="stealth_chopper">Stealth Chopper</string>
+    <string name="surprised_i_can_play">Surprised I Can Play</string>
+    <string name="uh_host_please">Uh, Host Please</string>
+    <string name="why_lvl_21">Why You Lvl 21</string>
+    <string name="wod">Wings of Death</string>
+    
+    <string name="can_you_stop">Can You Stop</string>
+    <string name="dont_like_filming">Don\'t Like Filming</string>
+    <string name="i_am_tool">I Am A Tool</string>
+    <string name="long_sigh">Long Sigh</string>
+    <string name="nobody_knows">Nobody Knows</string>
+    <string name="im_not_good">I\'m Not Very Good</string>
+    <string name="six_hours">Six Hours of This</string>
+    <string name="wrong_decision">Wrong Decision</string>
+    <string name="whatever">Whatever</string>
+    <string name="when_im_bsed">When I\'m BSed</string>
+    
+    <string name="make_dubstep">Make a Dubstep</string>
+    <string name="toofardark">TooFarDark</string>
+    
+    <string name="chuckle">Chuckle 1</string>
+    <string name="chuckle2">Chuckle 2</string>
+    <string name="laugh">Laugh 1</string>
+    <string name="laugh2">Laugh 2</string>
+    
+    <string name="ay">Ay</string>
+    <string name="i_cant_see">I Can\'t See</string>
+    <string name="oh_god">Oh God</string>
+    <string name="oh_wow">Oh Wow!</string>
+    <string name="thats_cool">That\'s Cool</string>
+    <string name="you_did_it">You Did It!</string>
+    
+    <string name="get_out">Get Out 1</string>
+    <string name="get_out2">Get Out 2</string>
+    <string name="get_outta_here">Get Outta Here 1</string>
+    <string name="get_outta_here2">Get Outta Here 2</string>
+    <string name="get_away">Get Away</string>
+    <string name="lock_my_room">Should\'ve Locked My Room</string>
+    
+    <string name="i_dont_care">I Don\'t Care 1</string>
+    <string name="i_dont_care2">I Don\'t Care 2</string>
+    <string name="i_dont_mind">I Don\'t Mind</string>
+    <string name="idk_but_idc">Idk but Idc</string>
+    
+    <string name="are_you_recording">Are You Recording</string>
+    <string name="wait_how">Wait How</string>
+    <string name="wat">Wat</string>
+    <string name="what_you_doing">What You Doing</string>
+    <string name="whats_his_name">What\'s His Name</string>
+    <string name="which_one">Which One</string>
+    <string name="why_on_news">Why Am I On The News</string>
+    
+    <string name="imma_kill_you">Imma Kill You</string>
+    <string name="interesting_person">Interesting Person</string>
+    <string name="shut_the_frickin">Shut the Frickin</string>
+    <string name="youre_annoying">You\'re Annoying</string>
+    
+    <string name="no">No</string>
+    <string name="no_you_dont">No You Don\'t</string>
+    <string name="oh_yeah">Oh Yeah</string>
+    <string name="ok">Ok</string>
+    <string name="uh_okay">Uh Okay</string>
+    <string name="well_no_because">Well No Because</string>
+    <string name="yeah">Yeah</string>
+    <string name="yeah_exactly">Yeah Exactly</string>
+    <string name="you_dont">You Don\'t</string>
+    <string name="yup">Yup</string>
+        
+
+</resources>
